@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.parent {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #141313;
+}
+
+.nav ul {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.contact {
+
+    height: 12px;
+    position: relative;
+    top: 7px;
+    right: 340px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #28b6da;
+    border-radius: 50px;
+
+
+}
+
+.contact a {
+    color: white;
+}
+
+.logo {
+    position: relative;
+    right: 80px;
+}
+
+.logo h1 {
+    color: white;
+}
