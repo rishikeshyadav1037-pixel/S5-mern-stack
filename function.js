@@ -190,13 +190,20 @@
 // div();
 
 // Number :20
-function mul(i){
-    let sum=0;
-    for(let num=1; num<=i; num++){
-        if(num%3==0 && num%5==0){
-            sum=num+sum;
-        }
-    }
-    return sum;
-}
-console.log(mul(100));
+// function mul(i){
+//     let sum=0;
+//     for(let num=1; num<=i; num++){
+//         if(num%3==0 && num%5==0){
+//             sum=num+sum;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(mul(100));
+// function evenNumbers() {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(i * 2);
+//     }
+// }
+
+// evenNumbers();
